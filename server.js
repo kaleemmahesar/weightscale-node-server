@@ -37,7 +37,7 @@ async function connectSerial() {
 
         const selectedPort = ports.find((p) => p.path === config.serialPortPath);
         if (!selectedPort) {
-            console.error(`❌ Port ${config.serialPortPath} not found!`);
+            console.error(`❌ Port ${config.serialPortPath} not found sss!`);
             startSimulation();
             return;
         }
